@@ -1,0 +1,260 @@
+ams
+arn
+atl
+bog - 2019-01-06
+
+# Run with
+for d in ams arn atl bog ; do
+  ./makeMeasurement -apiKey api-keys -count 10 -md 96h -measurement measurements/gdns_v4.json -metro ${d} -v4
+  ./makeMeasurement -apiKey api-keys -count 10 -md 96h -measurement measurements/gdns_v6.json -metro ${d} -v6
+  ./makeMeasurement -apiKey api-keys -count 10 -md 96h -measurement measurements/gdns_v4_norecurse.json -metro ${d} -v4
+  ./makeMeasurement -apiKey api-keys -count 10 -md 96h -measurement measurements/gdns_v6_norecurse.json -metro ${d} -v6
+done
+https://atlas.ripe.net/api/v2/measurements/18811137/
+https://atlas.ripe.net/api/v2/measurements/18811138/
+https://atlas.ripe.net/api/v2/measurements/18811139/
+https://atlas.ripe.net/api/v2/measurements/18811140/
+https://atlas.ripe.net/api/v2/measurements/18811141/
+https://atlas.ripe.net/api/v2/measurements/18811142/
+https://atlas.ripe.net/api/v2/measurements/18811143/
+https://atlas.ripe.net/api/v2/measurements/18811144/
+https://atlas.ripe.net/api/v2/measurements/18811145/
+https://atlas.ripe.net/api/v2/measurements/18811146/
+https://atlas.ripe.net/api/v2/measurements/18811147/
+https://atlas.ripe.net/api/v2/measurements/18811148/
+https://atlas.ripe.net/api/v2/measurements/18811149/
+https://atlas.ripe.net/api/v2/measurements/18811150/
+https://atlas.ripe.net/api/v2/measurements/18811151/
+https://atlas.ripe.net/api/v2/measurements/18811152/
+
+bom
+bru
+bud - 2019-01-11
+
+# Run with
+for d in bom bru bud ; do
+  ./makeMeasurement -apiKey api-keys -count 10 -md 96h -measurement measurements/gdns_v4.json -metro ${d} -v4
+  ./makeMeasurement -apiKey api-keys -count 10 -md 96h -measurement measurements/gdns_v6.json -metro ${d} -v6
+  ./makeMeasurement -apiKey api-keys -count 10 -md 96h -measurement measurements/gdns_v4_norecurse.json -metro ${d} -v4
+  ./makeMeasurement -apiKey api-keys -count 10 -md 96h -measurement measurements/gdns_v6_norecurse.json -metro ${d} -v6
+done
+## 
+https://atlas.ripe.net/api/v2/measurements/18903895/
+https://atlas.ripe.net/api/v2/measurements/18903896/
+https://atlas.ripe.net/api/v2/measurements/18903897/
+https://atlas.ripe.net/api/v2/measurements/18903898/
+https://atlas.ripe.net/api/v2/measurements/18903899/
+https://atlas.ripe.net/api/v2/measurements/18903900/
+https://atlas.ripe.net/api/v2/measurements/18903901/
+https://atlas.ripe.net/api/v2/measurements/18903902/
+https://atlas.ripe.net/api/v2/measurements/18903903/
+https://atlas.ripe.net/api/v2/measurements/18903904/
+https://atlas.ripe.net/api/v2/measurements/18903905/
+https://atlas.ripe.net/api/v2/measurements/18903906/
+
+cbf
+chs
+ctg 2019-01-15
+
+for d in cbf chs ctg ; do
+  ./makeMeasurement -apiKey api-keys -count 10 -md 96h -measurement measurements/gdns_v4.json -metro ${d} -v4
+  ./makeMeasurement -apiKey api-keys -count 10 -md 96h -measurement measurements/gdns_v6.json -metro ${d} -v6
+  ./makeMeasurement -apiKey api-keys -count 10 -md 96h -measurement measurements/gdns_v4_norecurse.json -metro ${d} -v4
+  ./makeMeasurement -apiKey api-keys -count 10 -md 96h -measurement measurements/gdns_v6_norecurse.json -metro ${d} -v6
+done
+(all probes here within 300km radius, nothing inside of 200 available)
+https://atlas.ripe.net/api/v2/measurements/18963555/
+https://atlas.ripe.net/api/v2/measurements/18963556/
+https://atlas.ripe.net/api/v2/measurements/18963557/
+https://atlas.ripe.net/api/v2/measurements/18963558/
+https://atlas.ripe.net/api/v2/measurements/18963559/
+https://atlas.ripe.net/api/v2/measurements/18963560/
+https://atlas.ripe.net/api/v2/measurements/18963561/
+https://atlas.ripe.net/api/v2/measurements/18963562/
+(NOTE: CTG has no probes within 300km)
+
+del
+den
+dfw
+
+ for d in del den dfw; do   ./makeMeasurement -apiKey api-keys -count 10 -md 96h -measurement measurements/gdns_v4.json -metro ${d} -v4
+  ./makeMeasurement -apiKey api-keys -count 10 -md 96h -measurement measurements/gdns_v6.json -metro ${d} -v6
+  ./makeMeasurement -apiKey api-keys -count 10 -md 96h -measurement measurements/gdns_v4_norecurse.json -metro ${d} -v4
+  ./makeMeasurement -apiKey api-keys -count 10 -md 96h -measurement measurements/gdns_v6_norecurse.json -metro ${d} -v6
+done
+
+https://atlas.ripe.net/api/v2/measurements/19115124/
+https://atlas.ripe.net/api/v2/measurements/19115125/
+https://atlas.ripe.net/api/v2/measurements/19115128/
+https://atlas.ripe.net/api/v2/measurements/19115130/
+https://atlas.ripe.net/api/v2/measurements/19115093/
+https://atlas.ripe.net/api/v2/measurements/19115094/
+https://atlas.ripe.net/api/v2/measurements/19115095/
+https://atlas.ripe.net/api/v2/measurements/19115096/
+https://atlas.ripe.net/api/v2/measurements/19115097/
+https://atlas.ripe.net/api/v2/measurements/19115098/
+https://atlas.ripe.net/api/v2/measurements/19115099/
+https://atlas.ripe.net/api/v2/measurements/19115100/
+
+(NOTE: DEL has nothing inside 100 km radius)
+
+dls (200km radius)
+https://atlas.ripe.net/api/v2/measurements/19362383/
+https://atlas.ripe.net/api/v2/measurements/19362384/
+https://atlas.ripe.net/api/v2/measurements/19362385/
+https://atlas.ripe.net/api/v2/measurements/19362386/
+
+
+dub
+eze
+https://atlas.ripe.net/api/v2/measurements/19362353/
+https://atlas.ripe.net/api/v2/measurements/19362354/
+https://atlas.ripe.net/api/v2/measurements/19362355/
+https://atlas.ripe.net/api/v2/measurements/19362356/
+https://atlas.ripe.net/api/v2/measurements/19362357/
+https://atlas.ripe.net/api/v2/measurements/19362358/
+https://atlas.ripe.net/api/v2/measurements/19362359/
+https://atlas.ripe.net/api/v2/measurements/19362360/
+
+fjr (200km radius)
+https://atlas.ripe.net/api/v2/measurements/19362395/
+https://atlas.ripe.net/api/v2/measurements/19362396/
+https://atlas.ripe.net/api/v2/measurements/19362397/
+https://atlas.ripe.net/api/v2/measurements/19362398/
+
+fra
+grq
+https://atlas.ripe.net/api/v2/measurements/19362387/
+https://atlas.ripe.net/api/v2/measurements/19362388/
+https://atlas.ripe.net/api/v2/measurements/19362389/
+https://atlas.ripe.net/api/v2/measurements/19362390/
+https://atlas.ripe.net/api/v2/measurements/19362391/
+https://atlas.ripe.net/api/v2/measurements/19362392/
+https://atlas.ripe.net/api/v2/measurements/19362393/
+https://atlas.ripe.net/api/v2/measurements/19362394/
+
+gru
+ham
+hkg
+https://atlas.ripe.net/api/v2/measurements/19362399/
+https://atlas.ripe.net/api/v2/measurements/19362400/
+https://atlas.ripe.net/api/v2/measurements/19362401/
+https://atlas.ripe.net/api/v2/measurements/19362402/
+https://atlas.ripe.net/api/v2/measurements/19362403/
+https://atlas.ripe.net/api/v2/measurements/19362404/
+
+
+iad
+jnb
+kbp
+
+https://atlas.ripe.net/api/v2/measurements/19362410/
+https://atlas.ripe.net/api/v2/measurements/19362412/
+https://atlas.ripe.net/api/v2/measurements/19362413/
+
+kix
+kul
+lax
+
+	https://atlas.ripe.net/api/v2/measurements/19478838/
+	https://atlas.ripe.net/api/v2/measurements/19478839/
+	https://atlas.ripe.net/api/v2/measurements/19478840/
+	https://atlas.ripe.net/api/v2/measurements/19478841/
+	https://atlas.ripe.net/api/v2/measurements/19478830/
+	https://atlas.ripe.net/api/v2/measurements/19478831/
+	https://atlas.ripe.net/api/v2/measurements/19478832/
+	https://atlas.ripe.net/api/v2/measurements/19478833/
+	https://atlas.ripe.net/api/v2/measurements/19478834/
+	https://atlas.ripe.net/api/v2/measurements/19478835/
+	https://atlas.ripe.net/api/v2/measurements/19478836/
+	https://atlas.ripe.net/api/v2/measurements/19478837/
+
+led
+lga
+lhr
+
+	https://atlas.ripe.net/api/v2/measurements/19478858/
+	https://atlas.ripe.net/api/v2/measurements/19478859/
+	https://atlas.ripe.net/api/v2/measurements/19478860/
+	https://atlas.ripe.net/api/v2/measurements/19478861/
+	https://atlas.ripe.net/api/v2/measurements/19478862/
+	https://atlas.ripe.net/api/v2/measurements/19478863/
+	https://atlas.ripe.net/api/v2/measurements/19478864/
+	https://atlas.ripe.net/api/v2/measurements/19478865/
+	https://atlas.ripe.net/api/v2/measurements/19478866/
+	https://atlas.ripe.net/api/v2/measurements/19478867/
+	https://atlas.ripe.net/api/v2/measurements/19478868/
+	https://atlas.ripe.net/api/v2/measurements/19478869/
+
+
+lis
+los
+maa
+
+	https://atlas.ripe.net/api/v2/measurements/19478870/
+	https://atlas.ripe.net/api/v2/measurements/19478871/
+	https://atlas.ripe.net/api/v2/measurements/19478872/
+	https://atlas.ripe.net/api/v2/measurements/19478873/
+  https://atlas.ripe.net/api/v2/measurements/19478875/
+  https://atlas.ripe.net/api/v2/measurements/19478876/
+
+mad
+mba
+mct
+
+https://atlas.ripe.net/api/v2/measurements/19478877/
+https://atlas.ripe.net/api/v2/measurements/19478878/
+https://atlas.ripe.net/api/v2/measurements/19478879/
+NOTHING for MCT within 600km.
+
+mia
+mil
+mrn
+
+
+
+mrs
+muc
+nrt
+ord
+pao
+par
+prg
+qro
+rio
+scl
+sea
+sfo
+sin
+sjc
+sof
+svo
+syd
+tsa
+waw
+yul
+yyz
+zrh
+
+
+for d in kix kul lax ; do
+  ./makeMeasurement -apiKey api_keys_3 -count 10 -md 96h -measurement measurements/gdns_v4.json -metro ${d} -v4
+  ./makeMeasurement -apiKey api_keys_3 -count 10 -md 96h -measurement measurements/gdns_v6.json -metro ${d} -v6
+  ./makeMeasurement -apiKey api_keys_3 -count 10 -md 96h -measurement measurements/gdns_v4_norecurse.json -metro ${d} -v4
+  ./makeMeasurement -apiKey api_keys_3 -count 10 -md 96h -measurement measurements/gdns_v6_norecurse.json -metro ${d} -v6
+done
+
+for d in fjr ; do
+  ./makeMeasurement -apiKey api_keys_0 -count 10 -md 96h -measurement measurements/gdns_v4.json -metro ${d} -v4 -radius 200
+  ./makeMeasurement -apiKey api_keys_0 -count 10 -md 96h -measurement measurements/gdns_v6.json -metro ${d} -v6 -radius 200
+  ./makeMeasurement -apiKey api_keys_0 -count 10 -md 96h -measurement measurements/gdns_v4_norecurse.json -metro ${d} -v4 -radius 200
+  ./makeMeasurement -apiKey api_keys_0 -count 10 -md 96h -measurement measurements/gdns_v6_norecurse.json -metro ${d} -v6 -radius 200
+done
+
+for d in kix kul lax ; do
+  ./makeMeasurement -apiKey api_keys_0 -count 10 -md 96h -measurement measurements/gdns_v4.json -metro ${d} -v4
+  ./makeMeasurement -apiKey api_keys_0 -count 10 -md 96h -measurement measurements/gdns_v6.json -metro ${d} -v6
+  ./makeMeasurement -apiKey api_keys_0 -count 10 -md 96h -measurement measurements/gdns_v4_norecurse.json -metro ${d} -v4
+  ./makeMeasurement -apiKey api_keys_0 -count 10 -md 96h -measurement measurements/gdns_v6_norecurse.json -metro ${d} -v6
+done
+

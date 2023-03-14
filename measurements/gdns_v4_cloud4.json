@@ -1,0 +1,21 @@
+{
+  "start_time": "",
+  "stop_time": "",
+  "is_oneoff": false,
+  "definitions": [{
+    "is_public": true,
+    "description": "icmp test for 8.8.4.4 from metro: %v",
+    "af": 4,
+    "is_oneoff": false,
+    "start_time": "",
+    "stop_time": "",
+    "type": "ping",
+    "packets": 5,
+    "packet_interval": 5,
+    "tags": ["google-public-dns", "ipv4", "ping"],
+    "target": "8.8.4.4",
+    "protocol": "ICMP",
+    "interval": 300,
+    "spread": 10,
+    "timeout": 5000}]
+}

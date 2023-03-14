@@ -1,0 +1,25 @@
+{
+  "start_time": "",
+  "stop_time": "",
+  "is_oneoff": false,
+  "definitions": [{
+    "is_public": true,
+    "description": "UDP/53 authoritative test for 2001:4860:4860::8844 from metro: %v",
+    "af": 6,
+    "is_oneoff": false,
+    "start_time": "",
+    "stop_time": "",
+    "type": "dns",
+    "tags": ["google-public-dns", "ipv6", "non-recursive"],
+    "target": "2001:4860:4860::8844",
+    "protocol": "UDP",
+    "query_class": "IN",
+    "query_type": "TXT",
+    "query_argument": "test.dns.google.com.",
+    "set_rd_bit": false,
+    "udp_payload_size": 4096,
+    "port": 53,
+    "interval": 300,
+    "spread": 10,
+    "timeout": 5000}]
+}
