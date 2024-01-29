@@ -1,4 +1,4 @@
-github.com/google/uuid v1.5.0 h1:1p67kYwdtXjb0gL0BPiP1Av9wiZPo5A8z2cWkTZ+eyU=
-github.com/google/uuid v1.5.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
+github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/kelvins/geocoder v0.0.0-20200113010004-f579500e9e27 h1:ekI686mLb7Nxb8fgczSM1iV235ypZpOZwL/ANcGZ9Lg=
 github.com/kelvins/geocoder v0.0.0-20200113010004-f579500e9e27/go.mod h1:JaVDVP24FJxa8OtNO5T1A2WKgstNreJGyK1PvBRzPW0=
